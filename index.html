@@ -51,20 +51,34 @@
           </li>
         </ul>
       </address>
+      <button class="heroicons-btn" type="button">
+         <svg class="heroicons-icon" width="24" height="24">
+           <use href="./images/icons2.svg#icon-heroicons"></use>
+          </svg>
+        </button>
+    </div>
+
+
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close">Close</button>
+        <nav class="mobile-menu-nav">Navigation</nav>
+        <address>Adress</address>
+      </div>
     </div>
     </header>
     <!--#endregion heder-->
     <main>
-      <!--region hero-->
+
+      <!--Section-hero -->
       <section class="hero">
         <div class ="container">
-
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-
-        <button class="hero-btn container-btn" type="button">Order Service</button>
+        <button class="hero-container-btn" type="button">Order Service</button>
       </div>
       </section>
       <!--endregion hero-->
+      <!--section 2-->
       <section class="hiro-size">
         <div class="container">
         <h2 class="error visually-hidden">Заголовок 2</h2>
@@ -119,12 +133,14 @@
           </li>
         </ul>
       </div>
-
-
       </section>
-      <section class="page-icon page-size">
+
+
+
+       <!--section 3-->
+      <section class="page-icon">
         <div class="container">
-        <h2 class="haro-title haro-size">Our Team</h2>
+        <h2 class="haro-title">Our Team</h2>
         <ul class="list-size">
           <li class="list list-view-size">
             <img class="card-image no-gap"
@@ -132,8 +148,8 @@
              alt="Mark Guerrero" 
              width="264" />
             <div class="container-name">
-            <h3 class="hero-item hero-view">Mark Guerrero</h3>
-            <p class="hero-item-text hero-text-view">Product Designer</p>
+            <h3 class="hero-item-hero">Mark Guerrero</h3>
+            <p class="hero-item-view-text">Product Designer</p>
               <ul class="social-list">
                 <li class="social-list-item">
                   <a href="#" class="social-list-link">
@@ -169,8 +185,8 @@
             alt="Tom Ford" 
             width="264" />
             <div class="container-name">
-            <h3 class="hero-item hero-view">Tom Ford</h3>
-            <p class="hero-item-text hero-text-view">Frontend Developer</p>
+            <h3 class="hero-item-hero">Tom Ford</h3>
+            <p class="hero-item-view-text">Frontend Developer</p>
               <ul class="social-list">
                 <li class="social-list-item">
                   <a href="#" class="social-list-link">
@@ -206,8 +222,8 @@
             alt="Camila Garcia" 
             width="264" />
             <div class="container-name">
-            <h3 class="hero-item hero-view">Camila Garcia</h3>
-            <p class="hero-item-text hero-text-view">Marketing</p>
+            <h3 class="hero-item-hero">Camila Garcia</h3>
+            <p class="hero-item-view-text">Marketing</p>
               <ul class="social-list">
                 <li class="social-list-item">
                   <a href="#" class="social-list-link">
@@ -244,8 +260,8 @@
             alt="Daniel Wilson" 
             width="264" />
             <div class="container-name">
-            <h3 class="hero-item hero-view">Daniel Wilson</h3>
-            <p class="hero-item-text hero-text-view">UI Designer</p>
+            <h3 class="hero-item-hero">Daniel Wilson</h3>
+            <p class="hero-item-view-text">UI Designer</p>
               <ul class="social-list">
                 <li class="social-list-item">
                   <a href="#" class="social-list-link">
@@ -282,7 +298,7 @@
 
 
 
-
+<!--section 4-->
 
       <section class="haro-size-view">
         <div class="container">
@@ -376,7 +392,7 @@
 
 
 
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class ="container footer-container">
         <div class="container-footer">
       <a class="logo footer-logo footer-l" href="./index.html"
@@ -442,7 +458,7 @@
 
 
 
-    <div class="modal-backdrop">
+    <div class="modal-backdrop hidden">
       <div class="modal">
         <button class="footer-button" type="button" data-modal-close>
           <svg class="footer-social-btn" width="8" height="8">
